@@ -2,9 +2,9 @@
 
 ## Approach
 
-According to [SA-GAN](https://arxiv.org/abs/1805.08318), one of the problems with the general GAN is that it tries to calculate the relationship between distant features only as a convolution that extracts local features. SA-GAN solved this problem through the Self-Attension layer.
+According to [SA-GAN](https://arxiv.org/abs/1805.08318), one of the problems with the general GAN is that it tries to calculate relations between distant features only as a convolution layer that extracts local features. SA-GAN solved this problem through the Self-Attension layer.
 
-[RN](https://arxiv.org/abs/1706.01427) is explicitly computed to compute the relation between objects at long distances.
+[RN](https://arxiv.org/abs/1706.01427) is explicitly compute relations between distant features.
 
 ![RN](images/RN.png)
 
