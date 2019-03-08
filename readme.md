@@ -4,7 +4,7 @@
 
 According to [SA-GAN](https://arxiv.org/abs/1805.08318), one of the problems with the general GAN is that it tries to calculate the relationship between distant features only as a convolution that extracts local features. SA-GAN solved this problem through the Self-Attension layer.
 
-[RN](https://arxiv.org/abs/1706.01427) is explicitly computed to compute the relationships between objects at long distances.
+[RN](https://arxiv.org/abs/1706.01427) is explicitly computed to compute the relation between objects at long distances.
 
 ![RN](images/RN.png)
 
@@ -49,6 +49,6 @@ DCGAN Result
 
 ![viusalized](images/DCGAN-256.png)
 
-RNGAN Result
+RNGAN Result (RN discriminator and DCGAN generator)
 
 ![viusalized](images/RNGAN-256.png)
