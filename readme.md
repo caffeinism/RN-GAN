@@ -45,6 +45,8 @@ python train.py
 
 ## Result
 
+Train with [celebA-HQ dataset](https://arxiv.org/abs/1710.10196)
+
 DCGAN Result
 
 ![viusalized](images/DCGAN-256.png)
