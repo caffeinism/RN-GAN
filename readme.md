@@ -45,7 +45,7 @@ python train.py
 
 ## Result
 
-Train with [celebA-HQ dataset](https://arxiv.org/abs/1710.10196)
+Train with [celebA-HQ dataset](https://arxiv.org/abs/1710.10196) resolution as 256x256
 
 RNGAN Result (RN discriminator and DCGAN generator)
 
