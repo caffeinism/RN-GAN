@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     discriminator = define_D(config.d_type, config.image_size, config.ndf, 3)
     generator = define_G(config.g_type, config.image_size, config.nz, config.ngf, 3)
-    if config.gan_type == 'vanila':
+    if config.gan_type == 'vanilla':
         criterion = nn.BCEWithLogitsLoss()
     elif config.gan_type == 'lsgan':
         criterion = nn.MSELoss()
